@@ -1,0 +1,21 @@
+package RandomEat;
+import java.io.IOException;
+import java.util.Random;
+import java.util.Scanner;
+
+import com.sun.corba.se.spi.orbutil.fsm.Input;
+
+public class EatCore {
+	
+	
+public String Core(){
+String[] EatList={"おにぎり","ライス","天婦羅","ラーメン","スイカ","いちご","マカロン","lemon"};
+		
+    int Eat =(int) (Math.random()*EatList.length);
+    String EatReuslt=EatList[Eat];
+	return EatReuslt;
+	
+}
+	
+
+}
