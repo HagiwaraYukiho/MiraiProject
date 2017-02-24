@@ -1,0 +1,16 @@
+package RandomEat;
+
+import java.io.IOException;
+
+public class eat {
+	public static void main(String[] args) throws IOException  {	
+		
+		EatCore eatcore=new EatCore();
+		String eatnum=eatcore.Core();
+		
+	System.out.println(eatnum);
+	
+	
+}
+}
+
